@@ -23,7 +23,7 @@ build:
     - npm install xregexp
     - npm install nodebb-theme-v2mm
     - npm install --production
-    - ./node app --setup
+    - ./nodebb setup
     # A step that executes `npm test` command
     - echo "npm test temporarily disabled"
 
