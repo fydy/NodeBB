@@ -15,14 +15,12 @@ build:
   steps:
     # A step that executes `npm install` command
     - npm-install
-    - npm install nconf
-    - npm install winston
-    - npm install mkdirp
-    - npm install mime
-    - npm install graceful-fs
-    - npm install xregexp
-    - npm install nodebb-theme-v2mm
-    - npm install --production
+    - npm-install-nconf
+    - npm-install-winston
+    - npm-install-mkdirp
+    - npm-install-mime
+    - npm-install-graceful-fs
+    - npm-install-xregexp
     - ./nodebb setup
     # A step that executes `npm test` command
     - echo "npm test temporarily disabled"
